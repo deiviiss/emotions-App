@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/preset-env", //compila ecma5
+    "@babel/preset-react" //trabaja con jsx y sintaxis de react
+  ],
+  "env": {
+    "development": {
+      "presets": [["@babel/preset-react", { "development": true }]]
+    }
+  },
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
