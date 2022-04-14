@@ -4,6 +4,7 @@ import Menu from "@components/Menu";
 import "@styles/Header.scss";
 import menu from "@icons/icon_menu.svg";
 import logo from "@logos/logo_yard_sale.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -32,7 +33,7 @@ const Header = () => {
             david.hilera@hotmail.com
           </li>
           <li>
-            <a href="/login">Login</a>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </div>
