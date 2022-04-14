@@ -16,7 +16,7 @@ import "@styles/_global.css";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/emotions-App">
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home />} />

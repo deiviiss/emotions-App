@@ -7,8 +7,10 @@ module.exports = {
   entry: './src/index.js', //punto de entrada de la aplicación
   output: { //salida de la aplicación
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/'
+    // filename: 'bundle.js',
+    filename: 'emotions-App/bundle.js',
+    // publicPath: '/'
+    publicPath: '/emotions-App/'
   },
   mode: 'development',
   resolve: {
